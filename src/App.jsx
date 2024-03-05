@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
 import Home from './components/Home.jsx'
 import Header from './components/Header.jsx'
-import Nav from './components/Nav.jsx'
+import './App.css'
 import ProjectGallery from './components/pages/ProjectGallery.jsx'
 import Project from './components/pages/Project.jsx'
 import Contact from './components/pages/Contact.jsx'
@@ -12,9 +12,8 @@ export default function App() {
 
   return (
     <>
-
-    <Home />
     <Header />
+    
     <Routes >
             <Route path="/" element={<Home />} />
             <Route path="/pages/projectgallery" element={<ProjectGallery />} />

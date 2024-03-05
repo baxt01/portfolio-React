@@ -1,19 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+import "./nav.css"
 
 export default function Nav () {
     return (
         <nav>
-                <Link to="/"> Home </Link>
+                <Link to="/" className="title"> Home </Link>
         <ul>
             <li> 
-                <Link to="/pages/ProjectGallery">Project Gallery </Link>
+                <NavLink to="/pages/ProjectGallery">Project Gallery </NavLink>
             </li>
             <li>
-                <Link to="/pages/Project"> Project </Link> 
+                <NavLink to="/pages/Project"> Project </NavLink>
             </li>
             <li> 
-                <Link to="/pages/contact"> contact </Link> 
+                <NavLink to="/pages/contact"> contact </NavLink> 
             </li>
             </ul>
         </nav>
