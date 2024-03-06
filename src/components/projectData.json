@@ -1,9 +1,9 @@
 [
     {
-      "title": "Project 1",
-      "deployedLink": "https://example.com/project1",
-      "githubLink": "https://github.com/username/project1",
-      "image": "https://example.com/project1-image.jpg"
+      "title": "Professional Read Me Generator",
+      "deployedLink": "https://baxt01.github.io/baxt01ReadmeGenerator/",
+      "githubLink": "https://github.com/baxt01/baxt01ReadmeGenerator",
+      "image": "https://github.com/baxt01/baxt01ReadmeGenerator/blob/main/images/repo.png"
     },
     {
       "title": "Project 2",
