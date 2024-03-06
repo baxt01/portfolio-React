@@ -1,0 +1,39 @@
+[
+    {
+      "title": "Project 1",
+      "deployedLink": "https://example.com/project1",
+      "githubLink": "https://github.com/username/project1",
+      "image": "https://example.com/project1-image.jpg"
+    },
+    {
+      "title": "Project 2",
+      "deployedLink": "https://example.com/project2",
+      "githubLink": "https://github.com/username/project2",
+      "image": "https://example.com/project2-image.jpg"
+    },
+    {
+        "title": "Project 3",
+        "deployedLink": "https://example.com/project2",
+        "githubLink": "https://github.com/username/project2",
+        "image": "https://example.com/project2-image.jpg"
+      },
+      {
+        "title": "Project 4",
+        "deployedLink": "https://example.com/project2",
+        "githubLink": "https://github.com/username/project2",
+        "image": "https://example.com/project2-image.jpg"
+      },
+      {
+        "title": "Project 5",
+        "deployedLink": "https://example.com/project2",
+        "githubLink": "https://github.com/username/project2",
+        "image": "https://example.com/project2-image.jpg"
+      },
+      {
+        "title": "Project 6",
+        "deployedLink": "https://example.com/project2",
+        "githubLink": "https://github.com/username/project2",
+        "image": "https://example.com/project2-image.jpg"
+      }
+            
+  ]

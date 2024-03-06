@@ -1,14 +1,14 @@
 import React from 'react';
+import Project from './Project';
+import projectsData from '../projectData.json';
 
-export default function Project_Gallery() {
+export default function ProjectGallery() {
   return (
     <div>
       <h1>Project Gallery</h1>
-      <p>
-This is the project gallery!
-      </p>
+      {projectsData.slice(0, 6).map((project, index) => (
+        <Project key={index} project={project} />
+      ))}
     </div>
   );
 }
-
-// export default Project_Gallery;

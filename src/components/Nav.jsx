@@ -10,9 +10,6 @@ export default function Nav () {
             <li> 
                 <NavLink to="/pages/ProjectGallery">Project Gallery </NavLink>
             </li>
-            <li>
-                <NavLink to="/pages/Project"> Project </NavLink>
-            </li>
             <li> 
                 <NavLink to="/pages/contact"> contact </NavLink> 
             </li>

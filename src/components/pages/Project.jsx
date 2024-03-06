@@ -1,14 +1,14 @@
 import React from 'react';
 
-function Project() {
+export default function Project({ project }) {
+  const { title, deployedLink, githubLink, image } = project;
+
   return (
     <div>
-      <h1>Project Page</h1>
-      <p>
-       This is the project page!
-      </p>
+      <h2>{title}</h2>
+      <p>Deployed Link: <a href={deployedLink}>{deployedLink}</a></p>
+      <p>GitHub Repository: <a href={githubLink}>{githubLink}</a></p>
+      <img src={image} alt={title} />
     </div>
   );
 }
-
-export default Project;
