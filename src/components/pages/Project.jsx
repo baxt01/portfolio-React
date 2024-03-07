@@ -8,7 +8,7 @@ export default function Project({ project }) {
       <h2>{title}</h2>
       <p>Deployed Link: <a href={deployedLink}>{deployedLink}</a></p>
       <p>GitHub Repository: <a href={githubLink}>{githubLink}</a></p>
-      <img src={image} width="200px" height="200px" alt={title} />
+      <img src={image} width="200px" height="200px" alt={title} /><br />
     </div>
   );
 }
