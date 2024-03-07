@@ -3,37 +3,37 @@
       "title": "Professional Read Me Generator",
       "deployedLink": "https://baxt01.github.io/baxt01ReadmeGenerator/",
       "githubLink": "https://github.com/baxt01/baxt01ReadmeGenerator",
-      "image": "/repo.png"
+      "image": "/project1.png"
     },
     {
-      "title": "Project 2",
-      "deployedLink": "https://example.com/project2",
-      "githubLink": "https://github.com/username/project2",
-      "image": "https://example.com/project2-image.jpg"
+      "title": "Team Profile Generator",
+      "deployedLink": "https://baxt01.github.io/teamprofilegenerator/",
+      "githubLink": "https://github.com/baxt01/teamprofilegenerator",
+      "image": "/project2.png"
     },
     {
-        "title": "Project 3",
-        "deployedLink": "https://example.com/project2",
-        "githubLink": "https://github.com/username/project2",
-        "image": "https://example.com/project2-image.jpg"
+        "title": "work-out to music App (project-1)",
+        "deployedLink": "https://almasmansuri.github.io/Project-1/",
+        "githubLink": "https://github.com/baxt01/Project-1",
+        "image": "/project3.png"
       },
       {
-        "title": "Project 4",
-        "deployedLink": "https://example.com/project2",
-        "githubLink": "https://github.com/username/project2",
-        "image": "https://example.com/project2-image.jpg"
+        "title": "Daily Appointment Scheduler",
+        "deployedLink": "https://baxt01.github.io/week7-redo/",
+        "githubLink": "https://github.com/baxt01/week7-redo",
+        "image": "/project4.png"
       },
       {
-        "title": "Project 5",
-        "deployedLink": "https://example.com/project2",
-        "githubLink": "https://github.com/username/project2",
-        "image": "https://example.com/project2-image.jpg"
+        "title": "Javascript Powered Quiz",
+        "deployedLink": "https://baxt01.github.io/javascriptpoweredquiz/",
+        "githubLink": "https://github.com/baxt01/javascriptpoweredquiz",
+        "image": "/project5.png"
       },
       {
-        "title": "Project 6",
-        "deployedLink": "https://example.com/project2",
-        "githubLink": "https://github.com/username/project2",
-        "image": "https://example.com/project2-image.jpg"
+        "title": "Javascript Random password Generator",
+        "deployedLink": "https://baxt01.github.io/JavascriptRandomPwGenerater/",
+        "githubLink": "https://github.com/baxt01/JavascriptRandomPwGenerater",
+        "image": "project6.png"
       }
             
   ]
