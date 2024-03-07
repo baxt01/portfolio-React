@@ -6,7 +6,7 @@ export default function ProjectGallery() {
   return (
     <div>
       <h1>Project Gallery</h1>
-      {projectsData.slice(0, 6).map((project, index) => (
+      {projectsData.slice(0, projectsData.length).map((project, index) => (
         <Project key={index} project={project} />
       ))}
     </div>
