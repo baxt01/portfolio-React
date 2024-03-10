@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
+import './Header.css'
 import HeaderImg from '../assets/Michael-Baxter.jpg';
 
 export default function Header() {

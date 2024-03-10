@@ -8,7 +8,6 @@ import Project from './components/pages/Project.jsx'
 import Contact from './components/pages/Contact.jsx'
 
 export default function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -23,5 +22,3 @@ export default function App() {
     </>
   )
 }
-
-// export default App

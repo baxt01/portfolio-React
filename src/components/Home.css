@@ -1,0 +1,22 @@
+main {
+    background-color: azure;
+    height: 72vh;
+}
+
+p {
+    border: 5px solid antiquewhite;
+    border-radius: 10%;
+    width: 600px;
+    background-color: aquamarine;
+    color: cornflowerblue;
+}
+
+
+
+@media (max-width: 480px) {
+    p {
+    width: 150px;    
+    }
+
+
+}
