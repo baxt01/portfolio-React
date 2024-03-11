@@ -1,4 +1,22 @@
+.container {
+    background-color: azure;
+}
+
+.title {
+    color: aqua;
+    font-family: Pussycat, Algerian, Broadway;
+}
+
+.projects {
+    background-color: aquamarine;
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 15%;
+    border: 5px solid antiquewhite;
+}
+
 div a {
     text-decoration: none;
-    color: aqua;
+    color: cornflowerblue;
+    border-radius: 15%;
 }
