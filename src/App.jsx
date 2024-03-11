@@ -17,6 +17,11 @@ export default function App() {
             <Route path="/pages/projectgallery" element={<ProjectGallery />} />
             <Route path="/pages/project" element={<Project />} />
             <Route path="/pages/contact" element={<Contact />} />
+
+            <Route path="/" element={<Home />} />
+            <Route path="/pages/projectgallery" element={<ProjectGallery />} />
+            <Route path="/pages/contact" element={<Contact />} />
+            <Route path="/project/:key" element={<Project />} />
         </Routes>
     </>
   )
