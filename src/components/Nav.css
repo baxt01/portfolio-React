@@ -20,7 +20,7 @@ nav .title {
     margin: 0.5rem;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: lightblue;
 }
 
 nav ul {
@@ -34,7 +34,7 @@ nav ul li {
 nav ul li a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: lightblue;
     padding: 0.5rem;
     margin: 0.05rem;
     border-radius: 0.5rem;

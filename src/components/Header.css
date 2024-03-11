@@ -1,0 +1,10 @@
+.header {
+    background-color: antiquewhite;
+    color: darkgrey;
+    font-family: Pussycat, Algerian, Broadway;
+}
+
+.Himg {
+    border-radius: 100%;
+    border: 2px solid rgb(221, 196, 165);
+}

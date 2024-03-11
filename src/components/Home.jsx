@@ -8,11 +8,11 @@ export default function Home() {
     <main>
     <div className='container text-center'>
         <div className='row'>
-            <div className='col-2'>
+            <div className='col-lg-2 col-sm-0'>
                 </div>
-              <div className='col-8'>
+              <div className='col-lg-8 col-sm-4'>
                 
-        <p className='px-3 py-3 mx-3 my-3'>
+        <p className='px-2 py-2 mx-3 my-3 brandstatement'>
     I have been working with different levels of coding since the early 2000's but only ever for personal use,
     I have had a passion for this field but never really looked into taking it to a professional level.
     I have had the pleasure of watching these technologies change and grow, 
@@ -23,7 +23,7 @@ export default function Home() {
     </p>
                 
             </div>
-            <div className='col-2'>
+            <div className='col-lg-2 col-sm-0'>
         </div>
     </div>
     </div>
