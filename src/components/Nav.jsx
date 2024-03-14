@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom'
-import "./nav.css"
+import { Link, NavLink } from 'react-router-dom';
+import "./nav.css";
 
 export default function Nav () {
 const [menuOpen, setMenuOpen] = useState (false);
