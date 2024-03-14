@@ -1,6 +1,5 @@
 import React from 'react';
 import { Document, Page } from 'react-pdf';
-
 import { pdfjs } from 'react-pdf';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
@@ -11,7 +10,10 @@ const PDFViewer = () => {
 return (
  <div>
  <Document file={pdfURL}>
- <Page pageNumber={1} />
+ <Page   renderTextLayer={false}
+         renderAnnotationLayer={false}
+         customTextRenderer={false}
+         pageNumber={1} />
  </Document>
  </div>
  );

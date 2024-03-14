@@ -79,17 +79,17 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label htmlFor="name">Name:</label>
+        <label htmlFor="name" className='mx-3'>Name:</label>
         <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
         {errors.name && <span className="error">{errors.name}</span>}
       </div>
       <div>
-        <label htmlFor="email">Email:</label>
+        <label htmlFor="email" className='mx-3'>Email:</label>
         <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} />
         {errors.email && <span className="error">{errors.email}</span>}
       </div>
       <div>
-        <label htmlFor="message">Message:</label>
+        <label htmlFor="message" className='mx-3'>Message:</label>
         <textarea id="message" name="message" value={formData.message} onChange={handleChange}></textarea>
         {errors.message && <span className="error">{errors.message}</span>}
       </div>

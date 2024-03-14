@@ -4,8 +4,12 @@ import ContactForm from './ContactForm';
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Me</h1>
+    <div className='container text-center'>
+      <div className='row'>
+        <div className='col-lg-2 col-sm-0'>
+        </div>
+        <div className='col-lg-8 col-sm-4'>
+      <h1 className='title'>Contact Me</h1>
       <div>
         <ContactForm />
         Email: <a href="mailTo:baxt01@hotmail.com">Email me </a><br />
@@ -13,6 +17,10 @@ export default function Contact() {
         GitHub: <a href="https://github.com/baxt01/">Visit my GitHub Profile</a><br />
         LinkedIn: <a href="https://linkedin.com/in/michael-baxter-48b15718">Visit my LinkedIn</a><br />
         <Resume />
+        </div>
+        <div className='col-lg-2 col-sm-0'>
+        </div>
+        </div>
       </div>
     </div>
   );
